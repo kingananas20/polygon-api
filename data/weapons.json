@@ -319,6 +319,46 @@
                     ]  
                 }
             ]
+        },
+        {
+            "name": "VSS",
+            "requiredLevel": 16,
+            "type": "Marksman",
+            "price": 70000,
+            "firingType": "single",
+            "damage": 34,
+            "fireRate": 400,
+            "recoil": 21,
+            "recoilControl": null,
+            "accuracy": 22,
+            "magazine": 20,
+            "mobility": 100,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight",
+                        "PSO-1"
+                    ],
+                    "barrel": [],
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [],
+                    "skins": [
+                        "Tiger"     
+                    ]
+                }
+            ]
         }
     ]
 }
