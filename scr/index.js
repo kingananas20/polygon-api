@@ -14,9 +14,9 @@ app.get("/api/weapons", (req, res) => {
   res.send(weapons);
 });
 
-app.get("/api/weapons/:name", (req, res) => {
-  const query = req.params.name.toUpperCase();
-  const weapon = weapons.data.find((c) => c.name === query);
+app.get("/api/weapons/:code", (req, res) => {
+  const query = req.params.code.toUpperCase();
+  const weapon = weapons.data.find((c) => c.code === query);
   if (!weapon) {
     res.status(404).send("That weapon does not exist!");
   }

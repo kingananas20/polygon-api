@@ -3,6 +3,7 @@
     "data": [
         {
             "name": "M16A4",
+            "code": "M16A4",
             "requiredLevel": 0,
             "type": "Assault",
             "price": null,
@@ -51,6 +52,7 @@
         },
         {   
             "name": "AK-74",
+            "code": "AK-74",
             "requiredLevel": 3,
             "type": "Assault",
             "price": 2300,
@@ -90,6 +92,7 @@
         },
         {
             "name": "Mk14",
+            "code": "MK14",
             "requiredLevel": 5,
             "type": "Marksman",
             "price": 6750,
@@ -134,6 +137,7 @@
         },
         {
             "name": "AK-12",
+            "code": "AK-12",
             "requiredLevel": 8,
             "type": "Assault",
             "price": 11400,
@@ -182,6 +186,7 @@
         },
         {
             "name": "M24",
+            "code": "M24",
             "requiredLevel": 10,
             "type": "Sniper",
             "price": 21200,
@@ -226,6 +231,7 @@
         },
         {
             "name": "SCAR-H",
+            "code": "SCAR-H",
             "requiredLevel": 12,
             "type": "Assault",
             "price": 30900,
@@ -276,6 +282,7 @@
         },
         {
             "name": "G36C",
+            "code": "G36C",
             "requiredLevel": 14,
             "type": "SMG",
             "price": 47000,
@@ -322,6 +329,7 @@
         },
         {
             "name": "VSS",
+            "code": "VSS",
             "requiredLevel": 16,
             "type": "Marksman",
             "price": 70000,
@@ -356,6 +364,152 @@
                     "strap": [],
                     "skins": [
                         "Tiger"     
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AK-74M",
+            "code": "AK-74M",
+            "requiredLevel": 18,
+            "type": "Assault",
+            "price": 85000,
+            "firingType": "auto",
+            "damage": 28,
+            "fireRate": 630,
+            "recoil": 23,
+            "recoilControl": 0.8,
+            "accuracy": 30,
+            "magazine": 30,
+            "mobility": 100,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [
+                        "Base"
+                    ],
+                    "skins": [
+                        "Jockey",
+                        "Urban",
+                        "Nitro"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Kriss Vector",
+            "code": "KRISSVECTOR",
+            "requiredLevel": 20,
+            "type": "SMG",
+            "price": 107500,
+            "firingType": "auto",
+            "damage": 21,
+            "fireRate": 1100,
+            "recoil": 20,
+            "recoilControl": 0.73,
+            "accuracy": 22,
+            "magazine": 25,
+            "mobility": 110,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [
+                        "Base"
+                    ],
+                    "skins": [
+                        "Jockey",
+                        "Urban",
+                        "Nitro"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AK308",
+            "requiredLevel": 24,
+            "type": "Assault",
+            "price": 138400,
+            "firingType": "auto",
+            "damage": 33,
+            "fireRate": 650,
+            "recoil": 28,
+            "recoilControl": 0.6,
+            "accuracy": 24,
+            "magazine": 20,
+            "mobility": 97,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [
+                        "Base"
+                    ],
+                    "skins": [
+                        "Jockey",
+                        "Urban",
+                        "Nitro"
                     ]
                 }
             ]
