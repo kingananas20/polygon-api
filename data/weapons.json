@@ -1,0 +1,324 @@
+
+{
+    "data": [
+        {
+            "name": "M16A4",
+            "requiredLevel": 0,
+            "type": "Assault",
+            "price": null,
+            "firingType": "auto",
+            "damage": 25,
+            "fireRate": 700,
+            "recoil": 23,
+            "recoilControl": 0.8,
+            "accuracy": 28,
+            "magazine": 30,
+            "mobility": 100,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [
+                        "Base"
+                    ],
+                    "skins": [
+                        "Jockey",
+                        "Urban",
+                        "Nitro"
+                    ]
+                }
+            ]
+        },
+        {   
+            "name": "AK-74",
+            "requiredLevel": 3,
+            "type": "Assault",
+            "price": 2300,
+            "firingType": "auto",
+            "damage": 31,
+            "fireRate": 600,
+            "recoil": 27,
+            "recoilControl": 0.7,
+            "accuracy": 16,
+            "magazine": 30,
+            "mobility": 100,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [],
+                    "accessory": [],
+                    "strap": [],
+                    "skins": [
+                        "Jockey",
+                        "Forest"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mk14",
+            "requiredLevel": 5,
+            "type": "Marksman",
+            "price": 6750,
+            "firingType": "single",
+            "damage": 47,
+            "fireRate": 400,
+            "recoil": 32,
+            "recoilControl": null,
+            "accuracy": 14,
+            "magazine": 15,
+            "mobility": 95,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ], 
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [],
+                    "skins": [
+                        "Tiger",
+                        "Forest"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "AK-12",
+            "requiredLevel": 8,
+            "type": "Assault",
+            "price": 11400,
+            "firingType": "auto",
+            "damage": 27,
+            "fireRate": 650,
+            "recoil": 23,
+            "recoilControl": 0.8,
+            "accuracy": 36,
+            "magazine": 30,
+            "mobility": 105,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [
+                        "Base"
+                    ],
+                    "skins": [
+                        "Jockey",
+                        "Urban",
+                        "Nitro"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "M24",
+            "requiredLevel": 10,
+            "type": "Sniper",
+            "price": 21200,
+            "firingType": "single",
+            "damage": 65,
+            "fireRate": 50,
+            "recoil": 51,
+            "recoilControl": null,
+            "accuracy": 8,
+            "magazine": 5,
+            "mobility": 95,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [
+                        "Base",
+                        "Safari",
+                        "Jockey"
+                    ],
+                    "skins": [
+                        "Polymer"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SCAR-H",
+            "requiredLevel": 12,
+            "type": "Assault",
+            "price": 30900,
+            "firingType": "auto",
+            "damage": 34,
+            "fireRate": 600,
+            "recoil": 28,
+            "recoilControl": 0.55,
+            "accuracy": 24,
+            "magazine": 20,
+            "mobility": 95,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [
+                        "Base",
+                        "Danger",
+                        "Flag"
+                    ],
+                    "skins": [
+                        "Forest",
+                        "Urban",
+                        "Tiger"
+                    ]
+                }
+            ]              
+        },
+        {
+            "name": "G36C",
+            "requiredLevel": 14,
+            "type": "SMG",
+            "price": 47000,
+            "firingType": "auto",
+            "damage": 25,
+            "fireRate": 750,
+            "recoil": 22,
+            "recoilControl": 0.8,
+            "accuracy": 24,
+            "magazine": 30,
+            "mobility": 107,
+            "addons": [
+                {
+                    "optic": [
+                        "Red Dot",
+                        "Holo Mini Sight",
+                        "Holo Sight",
+                        "Cobra",
+                        "ACOG",
+                        "Elcan Spectre DR",
+                        "OKP-7 Reflex Sight"
+                    ],
+                    "barrel": [
+                        "Muzzle Brake 'Dual Brake'",
+                        "Muzzle Brake 'Hunter'",
+                        "Muzzle Brake 'Quad Crown'"
+                    ],
+                    "underbarrel": [
+                        "Vertical Grip",
+                        "Angled Grip",
+                        "Assault Grip"
+                    ],
+                    "accessory": [
+                        "Flashlight"
+                    ],
+                    "strap": [],
+                    "skins": [
+                        "Urban",
+                        "German",
+                        "Sabotage"
+                    ]  
+                }
+            ]
+        }
+    ]
+}
