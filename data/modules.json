@@ -1,0 +1,251 @@
+{
+    "data": {
+        "optic": [
+            {
+                "name": "Red Dot",
+                "pros": [
+                    "Display a crosshair"
+                ],
+                "cons": [
+                    "Increase ADS time (+5%)"
+                ],
+                "price": {
+                    "M16A4": 500,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                },
+                "exp": {
+                    "M16A4": 1000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                }
+            },
+            {
+                "name": "Holo Mini Sight",
+                "pros": [
+                    "Display a crosshair"
+                ],
+                "cons": [
+                    "Increase ADS time (+5%)"
+                ],
+                "price": {
+                    "M16A4": 1000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                },
+                "exp": {
+                    "M16A4": 2000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                }
+            },
+            {
+                "name": "Holo Sight",
+                "pros": [
+                    "Display a crosshair"
+                ],
+                "cons": [
+                    "Increase ADS time (+5%)"
+                ],
+                "price": {
+                    "M16A4": 3000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                },
+                "exp": {
+                    "M16A4": 6000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                }
+            },
+            {
+                "name": "Cobra",
+                "pros": [
+                    "Display a crosshair"
+                ],
+                "cons": [
+                    "Increase ADS time (+5%)"
+                ],
+                "price": {
+                    "M16A4": 1000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                },
+                "exp": {
+                    "M16A4": 2000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                }
+            },
+            {
+                "name": "ACOG",
+                "pros": [
+                    "Display a crosshair"
+                ],
+                "cons": [
+                    "Increase ADS time (+5%)"
+                ],
+                "price": {
+                    "M16A4": 2250,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                },
+                "exp": {
+                    "M16A4": 4500,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                }
+            },
+            {
+                "name": "Elcan Spectre DR",
+                "pros": [
+                    "Display a crosshair"
+                ],
+                "cons": [
+                    "Increase ADS time (+5%)"
+                ],
+                "price": {
+                    "M16A4": 5000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                },
+                "exp": {
+                    "M16A4": 10000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                }
+            },
+            {
+                "name": "OKP-7 Reflex Sight",
+                "pros": [
+                    "Display a crosshair"
+                ],
+                "cons": [
+                    "Increase ADS time (+5%)"
+                ],
+                "price": {
+                    "M16A4": 3500,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                },
+                "exp": {
+                    "M16A4": 7000,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null
+                }
+            }
+        ]
+    }
+}

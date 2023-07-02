@@ -36,8 +36,8 @@
                         "Angled Grip",
                         "Assault Grip"
                     ],
-                    "accessory": [
-                        "Flashlight"
+                    "accesory": [
+                        "Flashlight" 
                     ],
                     "strap": [
                         "Base"
@@ -468,6 +468,7 @@
         },
         {
             "name": "AK308",
+            "code": "AK308",
             "requiredLevel": 24,
             "type": "Assault",
             "price": 138400,
@@ -479,7 +480,7 @@
             "accuracy": 24,
             "magazine": 20,
             "mobility": 97,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
