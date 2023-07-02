@@ -15,7 +15,7 @@
             "accuracy": 28,
             "magazine": 30,
             "mobility": 100,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -64,7 +64,7 @@
             "accuracy": 16,
             "magazine": 30,
             "mobility": 100,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -104,7 +104,7 @@
             "accuracy": 14,
             "magazine": 15,
             "mobility": 95,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -149,7 +149,7 @@
             "accuracy": 36,
             "magazine": 30,
             "mobility": 105,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -198,7 +198,7 @@
             "accuracy": 8,
             "magazine": 5,
             "mobility": 95,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -243,7 +243,7 @@
             "accuracy": 24,
             "magazine": 20,
             "mobility": 95,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -294,7 +294,7 @@
             "accuracy": 24,
             "magazine": 30,
             "mobility": 107,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -341,7 +341,7 @@
             "accuracy": 22,
             "magazine": 20,
             "mobility": 100,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -382,7 +382,7 @@
             "accuracy": 30,
             "magazine": 30,
             "mobility": 100,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
@@ -431,7 +431,7 @@
             "accuracy": 22,
             "magazine": 25,
             "mobility": 110,
-            "addons": [
+            "modules": [
                 {
                     "optic": [
                         "Red Dot",
