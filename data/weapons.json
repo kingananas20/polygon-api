@@ -344,13 +344,13 @@
             "modules": [
                 {
                     "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
+                        "REDDOT",
+                        "HOLOMINISIGHT",
+                        "HOLOSIGHT",
+                        "COBRA",
                         "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight",
+                        "ELCANSPECTREDR",
+                        "OKP-7REFLEXSIGHT",
                         "PSO-1"
                     ],
                     "barrel": [],
@@ -385,13 +385,13 @@
             "modules": [
                 {
                     "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
+                        "REDDOT",
+                        "HOLOMINISIGHT",
+                        "HOLOSIGHT",
+                        "COBRA",
                         "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
+                        "ELCANSPECTREDR",
+                        "OKP-7REFLEXSIGHT"
                     ],
                     "barrel": [
                         "Muzzle Brake 'Dual Brake'",
@@ -434,13 +434,13 @@
             "modules": [
                 {
                     "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
+                        "REDDOT",
+                        "HOLOMINISIGHT",
+                        "HOLOSIGHT",
+                        "COBRA",
                         "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
+                        "ELCANSPECTREDR",
+                        "OKP-7REFLEXSIGHT"
                     ],
                     "barrel": [
                         "Muzzle Brake 'Dual Brake'",
@@ -483,13 +483,13 @@
             "modules": [
                 {
                     "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
+                        "REDDOT",
+                        "HOLOMINISIGHT",
+                        "HOLOSIGHT",
+                        "COBRA",
                         "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
+                        "ELCANSPECTREDR",
+                        "OKP-7REFLEXSIGHT"
                     ],
                     "barrel": [
                         "Muzzle Brake 'Dual Brake'",
@@ -570,7 +570,7 @@
             "modules": [
                 {
                     "optic": [
-                        "Pistol Colliminator"
+                        "PISTOLCOLLIMINATOR"
                     ],
                     "barrel": [
                         null
