@@ -514,6 +514,83 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Colt 1911",
+            "code": "COLT1911",
+            "requiredLevel": 0,
+            "type": "Pistol",
+            "price": 0,
+            "firingType": "single",
+            "damage": 36,
+            "fireRate": 360,
+            "recoil": 39,
+            "recoilControl": null,
+            "accuracy": 25,
+            "magazine": 7,
+            "mobility": 110,
+            "modules": [
+                {
+                    "optic": [
+                        null
+                    ],
+                    "barrel": [
+                        null
+                    ],
+                    "underbarrel": [
+                        null
+                    ],
+                    "accessory": [
+                        null
+                    ],
+                    "strap": [
+
+                    ],
+                    "skins": [
+                        "Redaster",
+                        "Icebreaker"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Glock 17",
+            "code": "GLOCK17",
+            "requiredLevel": 10,
+            "type": "Pistol",
+            "price": 17000,
+            "firingType": "single",
+            "damage": 27,
+            "fireRate": 420,
+            "recoil": 22,
+            "recoilControl": null,
+            "accuracy": 25,
+            "magazine": 17,
+            "mobility": 110,
+            "modules": [
+                {
+                    "optic": [
+                        "Pistol Colliminator"
+                    ],
+                    "barrel": [
+                        null
+                    ],
+                    "underbarrel": [
+                        null
+                    ],
+                    "accessory": [
+                        null
+                    ],
+                    "strap": [
+
+                    ],
+                    "skins": [
+                        "Nitro",
+                        "Tiger",
+                        "Phoenix"
+                    ]
+                }
+            ]
         }
     ]
 }
