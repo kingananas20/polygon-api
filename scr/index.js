@@ -5,6 +5,7 @@ require("dotenv").config();
 const weapons = JSON.parse(fs.readFileSync("data/weapons.json"));
 const modules = JSON.parse(fs.readFileSync("data/modules.json"));
 const cosmetics = JSON.parse(fs.readFileSync("data/cosmetics.json"));
+const keys = JSON.parse(fs.readFileSync("data/keys.json"));
 
 const app = express();
 
@@ -16,7 +17,7 @@ app.get("/api/weapons", (req, res) => {
   res.send(weapons);
 });
 
-app.get("/api/v1/weapons/:code", (req, res) => {
+app.get("/api/:apikey/v1/weapons/:code", (req, res) => {
   const query = req.params.code.toUpperCase();
   const weapon = weapons.data.find((c) => c.code === query);
 
