@@ -9,11 +9,19 @@ const keys = JSON.parse(fs.readFileSync("data/keys.json"));
 
 const app = express();
 
-app.get("/", (req, res) => {
+function getPermission(key, res) {
+  const permissionGranted = keys.keys.find((c) => c.key === key);
+  if (!permissionGranted) {
+    res.send("incorrect");
+  }
+}
+
+app.get("/api/v1/:key", (req, res) => {
+  getPermission(req.params.key, res);
   res.send("Hello World!");
 });
 
-app.get("/api/weapons", (req, res) => {
+app.get("/api/v1/weapons/", (req, res) => {
   res.send(weapons);
 });
 
@@ -33,7 +41,11 @@ app.get("/api/v1/modules/optics/:code", (req, res) => {
   const module = modules.data.optic.find((c) => c.code === query);
 
   if (!module) {
-    res.status(404).send("That weapon does not exist!");
+    res.status(404).send({
+      data: [],
+      message: "Query does not exist.",
+      success: 0,
+    });
   }
 
   res.send(module);
