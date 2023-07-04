@@ -9,16 +9,24 @@ const keys = JSON.parse(fs.readFileSync("data/keys.json"));
 
 const app = express();
 
-function getPermission(key, res) {
+function getPermission(key, res, payload) {
   const permissionGranted = keys.keys.find((c) => c.key === key);
   if (!permissionGranted) {
     res.send("incorrect");
+  } else if (permissionGranted.limit === 0) {
+    res.send("Max calls for today reached");
+  } else {
+    res.send(payload);
+    permissionGranted.limit = permissionGranted.limit - 1;
+    fs.writeFileSync(
+      "data/keys.json",
+      JSON.stringify(permissionGranted, null, 2)
+    );
   }
 }
 
 app.get("/api/v1/:key", (req, res) => {
-  getPermission(req.params.key, res);
-  res.send("Hello World!");
+  getPermission(req.params.key, res, "correct");
 });
 
 app.get("/api/v1/weapons/", (req, res) => {
