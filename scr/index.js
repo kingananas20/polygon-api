@@ -86,7 +86,13 @@ app.get("/api/v1/:key/modules/:type/:code", (req, res) => {
     getPermission(req.params.key, res, modules.data.underbarrel);
     return;
   } else if (req.params.type === "accessory") {
-    getPermission(req.params.key, res, modules.data.accessory);
+    const module = modules.data.accessory.find(
+      (c) => c.code === req.params.code.toUpperCase()
+    );
+    if (!module) {
+      res.send("That module does not exist.");
+    }
+    getPermission(req.params.key, res, module);
     return;
   } else {
     res.send("Type of module does not exist");

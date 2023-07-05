@@ -402,6 +402,48 @@
                     "GLOCK17": 7000
                 }
             }
+        ],
+        "accessory": [
+            {
+                "name": "Flashlight",
+                "code": "FLASHLIGHT",
+                "pros": [
+
+                ],
+                "cons": [
+
+                ],
+                "price": {
+                    "M16A4": null,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null,
+                    "COLT1911": null,
+                    "GLOCK17": null
+                },
+                "exp": {
+                    "M16A4": null,
+                    "AK-74": null,
+                    "MK14": null,
+                    "AK-12": null,
+                    "M24": null,
+                    "SCAR-H": null,
+                    "G36C": null,
+                    "VSS": null,
+                    "AK-74M": null,
+                    "KRISSVECTOR": null,
+                    "AK308": null,
+                    "COLT1911": null,
+                    "GLOCK17": null
+                }
+            }
         ]
     }
 }
