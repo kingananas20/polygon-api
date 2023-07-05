@@ -1,4 +1,5 @@
 const fs = require("fs");
+const { createHash } = require("crypto");
 const express = require("express");
 require("dotenv").config();
 
@@ -9,8 +10,12 @@ const keys = JSON.parse(fs.readFileSync("data/keys.json"));
 
 const app = express();
 
+function hash(input) {
+  return createHash("sha256").update(input).digest("hex");
+}
+
 function getPermission(key, res, payload) {
-  const permissionGranted = keys.find((c) => c.key === key);
+  const permissionGranted = keys.find((c) => c.key === hash(key));
   if (!permissionGranted) {
     res.send("incorrect");
     return;
