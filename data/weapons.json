@@ -1,596 +1,456 @@
-
-{
-    "data": [
-        {
-            "name": "M16A4",
-            "code": "M16A4",
-            "requiredLevel": 0,
-            "type": "Assault",
-            "price": null,
-            "firingType": "auto",
-            "damage": 25,
-            "fireRate": 700,
-            "recoil": 23,
-            "recoilControl": 0.8,
-            "accuracy": 28,
-            "magazine": 30,
-            "mobility": 100,
-            "modules": [
-                {
-                    "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
-                        "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Angled Grip",
-                        "Assault Grip"
-                    ],
-                    "accesory": [
-                        "Flashlight" 
-                    ],
-                    "strap": [
-                        "Base"
-                    ],
-                    "skins": [
-                        "Jockey",
-                        "Urban",
-                        "Nitro"
-                    ]
-                }
-            ]
-        },
-        {   
-            "name": "AK-74",
-            "code": "AK-74",
-            "requiredLevel": 3,
-            "type": "Assault",
-            "price": 2300,
-            "firingType": "auto",
-            "damage": 31,
-            "fireRate": 600,
-            "recoil": 27,
-            "recoilControl": 0.7,
-            "accuracy": 16,
-            "magazine": 30,
-            "mobility": 100,
-            "modules": [
-                {
-                    "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
-                        "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [],
-                    "accessory": [],
-                    "strap": [],
-                    "skins": [
-                        "Jockey",
-                        "Forest"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Mk14",
-            "code": "MK14",
-            "requiredLevel": 5,
-            "type": "Marksman",
-            "price": 6750,
-            "firingType": "single",
-            "damage": 47,
-            "fireRate": 400,
-            "recoil": 32,
-            "recoilControl": null,
-            "accuracy": 14,
-            "magazine": 15,
-            "mobility": 95,
-            "modules": [
-                {
-                    "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
-                        "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ], 
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Assault Grip"
-                    ],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [],
-                    "skins": [
-                        "Tiger",
-                        "Forest"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "AK-12",
-            "code": "AK-12",
-            "requiredLevel": 8,
-            "type": "Assault",
-            "price": 11400,
-            "firingType": "auto",
-            "damage": 27,
-            "fireRate": 650,
-            "recoil": 23,
-            "recoilControl": 0.8,
-            "accuracy": 36,
-            "magazine": 30,
-            "mobility": 105,
-            "modules": [
-                {
-                    "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
-                        "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Angled Grip",
-                        "Assault Grip"
-                    ],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [
-                        "Base"
-                    ],
-                    "skins": [
-                        "Jockey",
-                        "Urban",
-                        "Nitro"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "M24",
-            "code": "M24",
-            "requiredLevel": 10,
-            "type": "Sniper",
-            "price": 21200,
-            "firingType": "single",
-            "damage": 65,
-            "fireRate": 50,
-            "recoil": 51,
-            "recoilControl": null,
-            "accuracy": 8,
-            "magazine": 5,
-            "mobility": 95,
-            "modules": [
-                {
-                    "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
-                        "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [
-                        "Base",
-                        "Safari",
-                        "Jockey"
-                    ],
-                    "skins": [
-                        "Polymer"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "SCAR-H",
-            "code": "SCAR-H",
-            "requiredLevel": 12,
-            "type": "Assault",
-            "price": 30900,
-            "firingType": "auto",
-            "damage": 34,
-            "fireRate": 600,
-            "recoil": 28,
-            "recoilControl": 0.55,
-            "accuracy": 24,
-            "magazine": 20,
-            "mobility": 95,
-            "modules": [
-                {
-                    "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
-                        "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Angled Grip",
-                        "Assault Grip"
-                    ],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [
-                        "Base",
-                        "Danger",
-                        "Flag"
-                    ],
-                    "skins": [
-                        "Forest",
-                        "Urban",
-                        "Tiger"
-                    ]
-                }
-            ]              
-        },
-        {
-            "name": "G36C",
-            "code": "G36C",
-            "requiredLevel": 14,
-            "type": "SMG",
-            "price": 47000,
-            "firingType": "auto",
-            "damage": 25,
-            "fireRate": 750,
-            "recoil": 22,
-            "recoilControl": 0.8,
-            "accuracy": 24,
-            "magazine": 30,
-            "mobility": 107,
-            "modules": [
-                {
-                    "optic": [
-                        "Red Dot",
-                        "Holo Mini Sight",
-                        "Holo Sight",
-                        "Cobra",
-                        "ACOG",
-                        "Elcan Spectre DR",
-                        "OKP-7 Reflex Sight"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Angled Grip",
-                        "Assault Grip"
-                    ],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [],
-                    "skins": [
-                        "Urban",
-                        "German",
-                        "Sabotage"
-                    ]  
-                }
-            ]
-        },
-        {
-            "name": "VSS",
-            "code": "VSS",
-            "requiredLevel": 16,
-            "type": "Marksman",
-            "price": 70000,
-            "firingType": "single",
-            "damage": 34,
-            "fireRate": 400,
-            "recoil": 21,
-            "recoilControl": null,
-            "accuracy": 22,
-            "magazine": 20,
-            "mobility": 100,
-            "modules": [
-                {
-                    "optic": [
-                        "REDDOT",
-                        "HOLOMINISIGHT",
-                        "HOLOSIGHT",
-                        "COBRA",
-                        "ACOG",
-                        "ELCANSPECTREDR",
-                        "OKP-7REFLEXSIGHT",
-                        "PSO-1"
-                    ],
-                    "barrel": [],
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Assault Grip"
-                    ],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [],
-                    "skins": [
-                        "Tiger"     
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "AK-74M",
-            "code": "AK-74M",
-            "requiredLevel": 18,
-            "type": "Assault",
-            "price": 85000,
-            "firingType": "auto",
-            "damage": 28,
-            "fireRate": 630,
-            "recoil": 23,
-            "recoilControl": 0.8,
-            "accuracy": 30,
-            "magazine": 30,
-            "mobility": 100,
-            "modules": [
-                {
-                    "optic": [
-                        "REDDOT",
-                        "HOLOMINISIGHT",
-                        "HOLOSIGHT",
-                        "COBRA",
-                        "ACOG",
-                        "ELCANSPECTREDR",
-                        "OKP-7REFLEXSIGHT"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Angled Grip",
-                        "Assault Grip"
-                    ],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [
-                        "Base"
-                    ],
-                    "skins": [
-                        "Jockey",
-                        "Urban",
-                        "Nitro"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Kriss Vector",
-            "code": "KRISSVECTOR",
-            "requiredLevel": 20,
-            "type": "SMG",
-            "price": 107500,
-            "firingType": "auto",
-            "damage": 21,
-            "fireRate": 1100,
-            "recoil": 20,
-            "recoilControl": 0.73,
-            "accuracy": 22,
-            "magazine": 25,
-            "mobility": 110,
-            "modules": [
-                {
-                    "optic": [
-                        "REDDOT",
-                        "HOLOMINISIGHT",
-                        "HOLOSIGHT",
-                        "COBRA",
-                        "ACOG",
-                        "ELCANSPECTREDR",
-                        "OKP-7REFLEXSIGHT"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Angled Grip",
-                        "Assault Grip"
-                    ],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [
-                        "Base"
-                    ],
-                    "skins": [
-                        "Jockey",
-                        "Urban",
-                        "Nitro"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "AK308",
-            "code": "AK308",
-            "requiredLevel": 24,
-            "type": "Assault",
-            "price": 138400,
-            "firingType": "auto",
-            "damage": 33,
-            "fireRate": 650,
-            "recoil": 28,
-            "recoilControl": 0.6,
-            "accuracy": 24,
-            "magazine": 20,
-            "mobility": 97,
-            "modules": [
-                {
-                    "optic": [
-                        "REDDOT",
-                        "HOLOMINISIGHT",
-                        "HOLOSIGHT",
-                        "COBRA",
-                        "ACOG",
-                        "ELCANSPECTREDR",
-                        "OKP-7REFLEXSIGHT"
-                    ],
-                    "barrel": [
-                        "Muzzle Brake 'Dual Brake'",
-                        "Muzzle Brake 'Hunter'",
-                        "Muzzle Brake 'Quad Crown'"
-                    ],
-                    "underbarrel": [
-                        "Vertical Grip",
-                        "Angled Grip",
-                        "Assault Grip"
-                    ],
-                    "accessory": [
-                        "Flashlight"
-                    ],
-                    "strap": [
-                        "Base"
-                    ],
-                    "skins": [
-                        "Jockey",
-                        "Urban",
-                        "Nitro"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Colt 1911",
-            "code": "COLT1911",
-            "requiredLevel": 0,
-            "type": "Pistol",
-            "price": 0,
-            "firingType": "single",
-            "damage": 36,
-            "fireRate": 360,
-            "recoil": 39,
-            "recoilControl": null,
-            "accuracy": 25,
-            "magazine": 7,
-            "mobility": 110,
-            "modules": [
-                {
-                    "optic": [
-                        null
-                    ],
-                    "barrel": [
-                        null
-                    ],
-                    "underbarrel": [
-                        null
-                    ],
-                    "accessory": [
-                        null
-                    ],
-                    "strap": [
-
-                    ],
-                    "skins": [
-                        "Redaster",
-                        "Icebreaker"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Glock 17",
-            "code": "GLOCK17",
-            "requiredLevel": 10,
-            "type": "Pistol",
-            "price": 17000,
-            "firingType": "single",
-            "damage": 27,
-            "fireRate": 420,
-            "recoil": 22,
-            "recoilControl": null,
-            "accuracy": 25,
-            "magazine": 17,
-            "mobility": 110,
-            "modules": [
-                {
-                    "optic": [
-                        "PISTOLCOLLIMINATOR"
-                    ],
-                    "barrel": [
-                        null
-                    ],
-                    "underbarrel": [
-                        null
-                    ],
-                    "accessory": [
-                        null
-                    ],
-                    "strap": [
-
-                    ],
-                    "skins": [
-                        "Nitro",
-                        "Tiger",
-                        "Phoenix"
-                    ]
-                }
-            ]
-        }
+[
+  {
+    "name": "M16A4",
+    "code": "M16A4",
+    "requiredLevel": 0,
+    "type": "Assault",
+    "price": null,
+    "firingType": "auto",
+    "damage": 25,
+    "fireRate": 700,
+    "recoil": 23,
+    "recoilControl": 0.8,
+    "accuracy": 28,
+    "magazine": 30,
+    "mobility": 100,
+    "modules": [
+      {
+        "optic": [
+          "Red Dot",
+          "Holo Mini Sight",
+          "Holo Sight",
+          "Cobra",
+          "ACOG",
+          "Elcan Spectre DR",
+          "OKP-7 Reflex Sight"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+        "accesory": ["Flashlight"],
+        "strap": ["Base"],
+        "skins": ["Jockey", "Urban", "Nitro"]
+      }
     ]
-}
+  },
+  {
+    "name": "AK-74",
+    "code": "AK-74",
+    "requiredLevel": 3,
+    "type": "Assault",
+    "price": 2300,
+    "firingType": "auto",
+    "damage": 31,
+    "fireRate": 600,
+    "recoil": 27,
+    "recoilControl": 0.7,
+    "accuracy": 16,
+    "magazine": 30,
+    "mobility": 100,
+    "modules": [
+      {
+        "optic": [
+          "Red Dot",
+          "Holo Mini Sight",
+          "Holo Sight",
+          "Cobra",
+          "ACOG",
+          "Elcan Spectre DR",
+          "OKP-7 Reflex Sight"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": [],
+        "accessory": [],
+        "strap": [],
+        "skins": ["Jockey", "Forest"]
+      }
+    ]
+  },
+  {
+    "name": "Mk14",
+    "code": "MK14",
+    "requiredLevel": 5,
+    "type": "Marksman",
+    "price": 6750,
+    "firingType": "single",
+    "damage": 47,
+    "fireRate": 400,
+    "recoil": 32,
+    "recoilControl": null,
+    "accuracy": 14,
+    "magazine": 15,
+    "mobility": 95,
+    "modules": [
+      {
+        "optic": [
+          "Red Dot",
+          "Holo Mini Sight",
+          "Holo Sight",
+          "Cobra",
+          "ACOG",
+          "Elcan Spectre DR",
+          "OKP-7 Reflex Sight"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": ["Vertical Grip", "Assault Grip"],
+        "accessory": ["Flashlight"],
+        "strap": [],
+        "skins": ["Tiger", "Forest"]
+      }
+    ]
+  },
+  {
+    "name": "AK-12",
+    "code": "AK-12",
+    "requiredLevel": 8,
+    "type": "Assault",
+    "price": 11400,
+    "firingType": "auto",
+    "damage": 27,
+    "fireRate": 650,
+    "recoil": 23,
+    "recoilControl": 0.8,
+    "accuracy": 36,
+    "magazine": 30,
+    "mobility": 105,
+    "modules": [
+      {
+        "optic": [
+          "Red Dot",
+          "Holo Mini Sight",
+          "Holo Sight",
+          "Cobra",
+          "ACOG",
+          "Elcan Spectre DR",
+          "OKP-7 Reflex Sight"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+        "accessory": ["Flashlight"],
+        "strap": ["Base"],
+        "skins": ["Jockey", "Urban", "Nitro"]
+      }
+    ]
+  },
+  {
+    "name": "M24",
+    "code": "M24",
+    "requiredLevel": 10,
+    "type": "Sniper",
+    "price": 21200,
+    "firingType": "single",
+    "damage": 65,
+    "fireRate": 50,
+    "recoil": 51,
+    "recoilControl": null,
+    "accuracy": 8,
+    "magazine": 5,
+    "mobility": 95,
+    "modules": [
+      {
+        "optic": [
+          "Red Dot",
+          "Holo Mini Sight",
+          "Holo Sight",
+          "Cobra",
+          "ACOG",
+          "Elcan Spectre DR",
+          "OKP-7 Reflex Sight"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": [],
+        "accessory": ["Flashlight"],
+        "strap": ["Base", "Safari", "Jockey"],
+        "skins": ["Polymer"]
+      }
+    ]
+  },
+  {
+    "name": "SCAR-H",
+    "code": "SCAR-H",
+    "requiredLevel": 12,
+    "type": "Assault",
+    "price": 30900,
+    "firingType": "auto",
+    "damage": 34,
+    "fireRate": 600,
+    "recoil": 28,
+    "recoilControl": 0.55,
+    "accuracy": 24,
+    "magazine": 20,
+    "mobility": 95,
+    "modules": [
+      {
+        "optic": [
+          "Red Dot",
+          "Holo Mini Sight",
+          "Holo Sight",
+          "Cobra",
+          "ACOG",
+          "Elcan Spectre DR",
+          "OKP-7 Reflex Sight"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+        "accessory": ["Flashlight"],
+        "strap": ["Base", "Danger", "Flag"],
+        "skins": ["Forest", "Urban", "Tiger"]
+      }
+    ]
+  },
+  {
+    "name": "G36C",
+    "code": "G36C",
+    "requiredLevel": 14,
+    "type": "SMG",
+    "price": 47000,
+    "firingType": "auto",
+    "damage": 25,
+    "fireRate": 750,
+    "recoil": 22,
+    "recoilControl": 0.8,
+    "accuracy": 24,
+    "magazine": 30,
+    "mobility": 107,
+    "modules": [
+      {
+        "optic": [
+          "Red Dot",
+          "Holo Mini Sight",
+          "Holo Sight",
+          "Cobra",
+          "ACOG",
+          "Elcan Spectre DR",
+          "OKP-7 Reflex Sight"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+        "accessory": ["Flashlight"],
+        "strap": [],
+        "skins": ["Urban", "German", "Sabotage"]
+      }
+    ]
+  },
+  {
+    "name": "VSS",
+    "code": "VSS",
+    "requiredLevel": 16,
+    "type": "Marksman",
+    "price": 70000,
+    "firingType": "single",
+    "damage": 34,
+    "fireRate": 400,
+    "recoil": 21,
+    "recoilControl": null,
+    "accuracy": 22,
+    "magazine": 20,
+    "mobility": 100,
+    "modules": [
+      {
+        "optic": [
+          "REDDOT",
+          "HOLOMINISIGHT",
+          "HOLOSIGHT",
+          "COBRA",
+          "ACOG",
+          "ELCANSPECTREDR",
+          "OKP-7REFLEXSIGHT",
+          "PSO-1"
+        ],
+        "barrel": [],
+        "underbarrel": ["Vertical Grip", "Assault Grip"],
+        "accessory": ["Flashlight"],
+        "strap": [],
+        "skins": ["Tiger"]
+      }
+    ]
+  },
+  {
+    "name": "AK-74M",
+    "code": "AK-74M",
+    "requiredLevel": 18,
+    "type": "Assault",
+    "price": 85000,
+    "firingType": "auto",
+    "damage": 28,
+    "fireRate": 630,
+    "recoil": 23,
+    "recoilControl": 0.8,
+    "accuracy": 30,
+    "magazine": 30,
+    "mobility": 100,
+    "modules": [
+      {
+        "optic": [
+          "REDDOT",
+          "HOLOMINISIGHT",
+          "HOLOSIGHT",
+          "COBRA",
+          "ACOG",
+          "ELCANSPECTREDR",
+          "OKP-7REFLEXSIGHT"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+        "accessory": ["Flashlight"],
+        "strap": ["Base"],
+        "skins": ["Jockey", "Urban", "Nitro"]
+      }
+    ]
+  },
+  {
+    "name": "Kriss Vector",
+    "code": "KRISSVECTOR",
+    "requiredLevel": 20,
+    "type": "SMG",
+    "price": 107500,
+    "firingType": "auto",
+    "damage": 21,
+    "fireRate": 1100,
+    "recoil": 20,
+    "recoilControl": 0.73,
+    "accuracy": 22,
+    "magazine": 25,
+    "mobility": 110,
+    "modules": [
+      {
+        "optic": [
+          "REDDOT",
+          "HOLOMINISIGHT",
+          "HOLOSIGHT",
+          "COBRA",
+          "ACOG",
+          "ELCANSPECTREDR",
+          "OKP-7REFLEXSIGHT"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+        "accessory": ["Flashlight"],
+        "strap": ["Base"],
+        "skins": ["Jockey", "Urban", "Nitro"]
+      }
+    ]
+  },
+  {
+    "name": "AK308",
+    "code": "AK308",
+    "requiredLevel": 24,
+    "type": "Assault",
+    "price": 138400,
+    "firingType": "auto",
+    "damage": 33,
+    "fireRate": 650,
+    "recoil": 28,
+    "recoilControl": 0.6,
+    "accuracy": 24,
+    "magazine": 20,
+    "mobility": 97,
+    "modules": [
+      {
+        "optic": [
+          "REDDOT",
+          "HOLOMINISIGHT",
+          "HOLOSIGHT",
+          "COBRA",
+          "ACOG",
+          "ELCANSPECTREDR",
+          "OKP-7REFLEXSIGHT"
+        ],
+        "barrel": [
+          "Muzzle Brake 'Dual Brake'",
+          "Muzzle Brake 'Hunter'",
+          "Muzzle Brake 'Quad Crown'"
+        ],
+        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+        "accessory": ["Flashlight"],
+        "strap": ["Base"],
+        "skins": ["Jockey", "Urban", "Nitro"]
+      }
+    ]
+  },
+  {
+    "name": "Colt 1911",
+    "code": "COLT1911",
+    "requiredLevel": 0,
+    "type": "Pistol",
+    "price": 0,
+    "firingType": "single",
+    "damage": 36,
+    "fireRate": 360,
+    "recoil": 39,
+    "recoilControl": null,
+    "accuracy": 25,
+    "magazine": 7,
+    "mobility": 110,
+    "modules": [
+      {
+        "optic": [null],
+        "barrel": [null],
+        "underbarrel": [null],
+        "accessory": [null],
+        "strap": [],
+        "skins": ["Redaster", "Icebreaker"]
+      }
+    ]
+  },
+  {
+    "name": "Glock 17",
+    "code": "GLOCK17",
+    "requiredLevel": 10,
+    "type": "Pistol",
+    "price": 17000,
+    "firingType": "single",
+    "damage": 27,
+    "fireRate": 420,
+    "recoil": 22,
+    "recoilControl": null,
+    "accuracy": 25,
+    "magazine": 17,
+    "mobility": 110,
+    "modules": [
+      {
+        "optic": ["PISTOLCOLLIMINATOR"],
+        "barrel": [null],
+        "underbarrel": [null],
+        "accessory": [null],
+        "strap": [],
+        "skins": ["Nitro", "Tiger", "Phoenix"]
+      }
+    ]
+  }
+]

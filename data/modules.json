@@ -1,449 +1,402 @@
 {
-    "data": {
-        "optic": [
-            {
-                "name": "Red Dot",
-                "code": "REDDOT",
-                "pros": [
-                    "Display a crosshair"
-                ],
-                "cons": [
-                    "Increase ADS time (+5%)"
-                ],
-                "price": {
-                    "M16A4": 500,
-                    "AK-74": 500,
-                    "MK14": 500,
-                    "AK-12": 500,
-                    "M24": 1250,
-                    "SCAR-H": 500,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": 1000,
-                    "AK-74": 1000,
-                    "MK14": 1000,
-                    "AK-12": 1000,
-                    "M24": 2500,
-                    "SCAR-H": 1000,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "Holo Mini Sight",
-                "code": "HOLOMINISIGHT",
-                "pros": [
-                    "Display a crosshair"
-                ],
-                "cons": [
-                    "Increase ADS time (+5%)"
-                ],
-                "price": {
-                    "M16A4": 1000,
-                    "AK-74": 1000,
-                    "MK14": 1000,
-                    "AK-12": 1250,
-                    "M24": 1250,
-                    "SCAR-H": 1250,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": 2000,
-                    "AK-74": 2000,
-                    "MK14": 2000,
-                    "AK-12": 2500,
-                    "M24": 2500,
-                    "SCAR-H": 2500,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "Holo Sight",
-                "code": "HOLOSIGHT",
-                "pros": [
-                    "Small magnification"
-                ],
-                "cons": [
-                    "Increase ADS time (+10%)"
-                ],
-                "price": {
-                    "M16A4": 3000,
-                    "AK-74": 2000,
-                    "MK14": 2250,
-                    "AK-12": 4000,
-                    "M24": 3500,
-                    "SCAR-H": 4000,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": 6000,
-                    "AK-74": 4000,
-                    "MK14": 4500,
-                    "AK-12": 8000,
-                    "M24": 7000,
-                    "SCAR-H": 8000,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "Cobra",
-                "code": "COBRA",
-                "pros": [
-                    "Display a crosshair"
-                ],
-                "cons": [
-                    "Increase ADS time (+5%)"
-                ],
-                "price": {
-                    "M16A4": 1000,
-                    "AK-74": 1000,
-                    "MK14": 1000,
-                    "AK-12": 1250,
-                    "M24": 3000,
-                    "SCAR-H": 1250,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": 2000,
-                    "AK-74": 2000,
-                    "MK14": 2000,
-                    "AK-12": 2500,
-                    "M24": 6000,
-                    "SCAR-H": 2500,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "ACOG",
-                "code": "ACOG",
-                "pros": [
-                    "Medium magnification"
-                ],
-                "cons": [
-                    "Increase ADS time (+15%)"
-                ],
-                "price": {
-                    "M16A4": 2250,
-                    "AK-74": 4500,
-                    "MK14": 1250,
-                    "AK-12": 2500,
-                    "M24": 1500,
-                    "SCAR-H": 3000,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": 4500,
-                    "AK-74": 9000,
-                    "MK14": 2500,
-                    "AK-12": 5000,
-                    "M24": 500,
-                    "SCAR-H": 6000,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "Elcan Spectre DR",
-                "code": "ELCANSPECTREDR",
-                "pros": [
-                    "Medium magnification"
-                ],
-                "cons": [
-                    "Increase ADS time (+15%)"
-                ],
-                "price": {
-                    "M16A4": 5000,
-                    "AK-74": 6500,
-                    "MK14": 5000,
-                    "AK-12": 5500,
-                    "M24": 7500,
-                    "SCAR-H": 6000,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": 10000,
-                    "AK-74": 13000,
-                    "MK14": 10000,
-                    "AK-12": 11000,
-                    "M24": 15000,
-                    "SCAR-H": 12000,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "OKP-7 Reflex Sight",
-                "code": "OKP-7REFLEXSIGHT",
-                "pros": [
-                    "Display a crosshair"
-                ],
-                "cons": [
-                    "Increase ADS time (+5%)"
-                ],
-                "price": {
-                    "M16A4": 3500,
-                    "AK-74": 3500,
-                    "MK14": 3500,
-                    "AK-12": 3500,
-                    "M24": null,
-                    "SCAR-H": 3500,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": 7000,
-                    "AK-74": 7000,
-                    "MK14": 7000,
-                    "AK-12": 7000,
-                    "M24": null,
-                    "SCAR-H": 7000,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "PSO-1",
-                "code": "PSO-1",
-                "pros": [
-                    "High magnification"
-                ],
-                "cons": [
-                    "Increase ADS time (+30%)"
-                ],
-                "price": {
-                    "M16A4": null,
-                    "AK-74": null,
-                    "MK14": null,
-                    "AK-12": null,
-                    "M24": null,
-                    "SCAR-H": null,
-                    "G36C": null,
-                    "VSS": 1750,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": null,
-                    "AK-74": null,
-                    "MK14": null,
-                    "AK-12": null,
-                    "M24": null,
-                    "SCAR-H": null,
-                    "G36C": null,
-                    "VSS": 3500,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "Optical Scope 8X",
-                "code": "OPTICALSCOPE8X",
-                "pros": [
-                    "High magnification"
-                ],
-                "cons": [
-                    "Decreases mobility (-2%)",
-                    "Increases draw time (+10%)"
-                ],
-                "price": {
-                    "M16A4": null,
-                    "AK-74": null,
-                    "MK14": null,
-                    "AK-12": null,
-                    "M24": 3000,
-                    "SCAR-H": null,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": null,
-                    "AK-74": null,
-                    "MK14": null,
-                    "AK-12": null,
-                    "M24": 3000,
-                    "SCAR-H": null,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            },
-            {
-                "name": "Pistol Colliminator",
-                "code": "PISTOLCOLLIMINATOR",
-                "pros": [
-                    "Display a crosshair"
-                ],
-                "cons": [
-                    "Increase ADS time (+5%)"
-                ],
-                "price": {
-                    "M16A4": null,
-                    "AK-74": null,
-                    "MK14": null,
-                    "AK-12": null,
-                    "M24": null,
-                    "SCAR-H": null,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": 3500
-                },
-                "exp": {
-                    "M16A4": null,
-                    "AK-74": null,
-                    "MK14": null,
-                    "AK-12": null,
-                    "M24": null,
-                    "SCAR-H": null,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": 7000
-                }
-            }
-        ],
-        "accessory": [
-            {
-                "name": "Flashlight",
-                "code": "FLASHLIGHT",
-                "pros": [
-
-                ],
-                "cons": [
-
-                ],
-                "price": {
-                    "M16A4": null,
-                    "AK-74": null,
-                    "MK14": null,
-                    "AK-12": null,
-                    "M24": null,
-                    "SCAR-H": null,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                },
-                "exp": {
-                    "M16A4": null,
-                    "AK-74": null,
-                    "MK14": null,
-                    "AK-12": null,
-                    "M24": null,
-                    "SCAR-H": null,
-                    "G36C": null,
-                    "VSS": null,
-                    "AK-74M": null,
-                    "KRISSVECTOR": null,
-                    "AK308": null,
-                    "COLT1911": null,
-                    "GLOCK17": null
-                }
-            }
-        ]
+  "optic": [
+    {
+      "name": "Red Dot",
+      "code": "REDDOT",
+      "pros": ["Display a crosshair"],
+      "cons": ["Increase ADS time (+5%)"],
+      "price": {
+        "M16A4": 500,
+        "AK-74": 500,
+        "MK14": 500,
+        "AK-12": 500,
+        "M24": 1250,
+        "SCAR-H": 500,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": 1000,
+        "AK-74": 1000,
+        "MK14": 1000,
+        "AK-12": 1000,
+        "M24": 2500,
+        "SCAR-H": 1000,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "Holo Mini Sight",
+      "code": "HOLOMINISIGHT",
+      "pros": ["Display a crosshair"],
+      "cons": ["Increase ADS time (+5%)"],
+      "price": {
+        "M16A4": 1000,
+        "AK-74": 1000,
+        "MK14": 1000,
+        "AK-12": 1250,
+        "M24": 1250,
+        "SCAR-H": 1250,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": 2000,
+        "AK-74": 2000,
+        "MK14": 2000,
+        "AK-12": 2500,
+        "M24": 2500,
+        "SCAR-H": 2500,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "Holo Sight",
+      "code": "HOLOSIGHT",
+      "pros": ["Small magnification"],
+      "cons": ["Increase ADS time (+10%)"],
+      "price": {
+        "M16A4": 3000,
+        "AK-74": 2000,
+        "MK14": 2250,
+        "AK-12": 4000,
+        "M24": 3500,
+        "SCAR-H": 4000,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": 6000,
+        "AK-74": 4000,
+        "MK14": 4500,
+        "AK-12": 8000,
+        "M24": 7000,
+        "SCAR-H": 8000,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "Cobra",
+      "code": "COBRA",
+      "pros": ["Display a crosshair"],
+      "cons": ["Increase ADS time (+5%)"],
+      "price": {
+        "M16A4": 1000,
+        "AK-74": 1000,
+        "MK14": 1000,
+        "AK-12": 1250,
+        "M24": 3000,
+        "SCAR-H": 1250,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": 2000,
+        "AK-74": 2000,
+        "MK14": 2000,
+        "AK-12": 2500,
+        "M24": 6000,
+        "SCAR-H": 2500,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "ACOG",
+      "code": "ACOG",
+      "pros": ["Medium magnification"],
+      "cons": ["Increase ADS time (+15%)"],
+      "price": {
+        "M16A4": 2250,
+        "AK-74": 4500,
+        "MK14": 1250,
+        "AK-12": 2500,
+        "M24": 1500,
+        "SCAR-H": 3000,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": 4500,
+        "AK-74": 9000,
+        "MK14": 2500,
+        "AK-12": 5000,
+        "M24": 500,
+        "SCAR-H": 6000,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "Elcan Spectre DR",
+      "code": "ELCANSPECTREDR",
+      "pros": ["Medium magnification"],
+      "cons": ["Increase ADS time (+15%)"],
+      "price": {
+        "M16A4": 5000,
+        "AK-74": 6500,
+        "MK14": 5000,
+        "AK-12": 5500,
+        "M24": 7500,
+        "SCAR-H": 6000,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": 10000,
+        "AK-74": 13000,
+        "MK14": 10000,
+        "AK-12": 11000,
+        "M24": 15000,
+        "SCAR-H": 12000,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "OKP-7 Reflex Sight",
+      "code": "OKP-7REFLEXSIGHT",
+      "pros": ["Display a crosshair"],
+      "cons": ["Increase ADS time (+5%)"],
+      "price": {
+        "M16A4": 3500,
+        "AK-74": 3500,
+        "MK14": 3500,
+        "AK-12": 3500,
+        "M24": null,
+        "SCAR-H": 3500,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": 7000,
+        "AK-74": 7000,
+        "MK14": 7000,
+        "AK-12": 7000,
+        "M24": null,
+        "SCAR-H": 7000,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "PSO-1",
+      "code": "PSO-1",
+      "pros": ["High magnification"],
+      "cons": ["Increase ADS time (+30%)"],
+      "price": {
+        "M16A4": null,
+        "AK-74": null,
+        "MK14": null,
+        "AK-12": null,
+        "M24": null,
+        "SCAR-H": null,
+        "G36C": null,
+        "VSS": 1750,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": null,
+        "AK-74": null,
+        "MK14": null,
+        "AK-12": null,
+        "M24": null,
+        "SCAR-H": null,
+        "G36C": null,
+        "VSS": 3500,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "Optical Scope 8X",
+      "code": "OPTICALSCOPE8X",
+      "pros": ["High magnification"],
+      "cons": ["Decreases mobility (-2%)", "Increases draw time (+10%)"],
+      "price": {
+        "M16A4": null,
+        "AK-74": null,
+        "MK14": null,
+        "AK-12": null,
+        "M24": 3000,
+        "SCAR-H": null,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": null,
+        "AK-74": null,
+        "MK14": null,
+        "AK-12": null,
+        "M24": 3000,
+        "SCAR-H": null,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    },
+    {
+      "name": "Pistol Colliminator",
+      "code": "PISTOLCOLLIMINATOR",
+      "pros": ["Display a crosshair"],
+      "cons": ["Increase ADS time (+5%)"],
+      "price": {
+        "M16A4": null,
+        "AK-74": null,
+        "MK14": null,
+        "AK-12": null,
+        "M24": null,
+        "SCAR-H": null,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": 3500
+      },
+      "exp": {
+        "M16A4": null,
+        "AK-74": null,
+        "MK14": null,
+        "AK-12": null,
+        "M24": null,
+        "SCAR-H": null,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": 7000
+      }
     }
+  ],
+  "accessory": [
+    {
+      "name": "Flashlight",
+      "code": "FLASHLIGHT",
+      "pros": [],
+      "cons": [],
+      "price": {
+        "M16A4": null,
+        "AK-74": null,
+        "MK14": null,
+        "AK-12": null,
+        "M24": null,
+        "SCAR-H": null,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      },
+      "exp": {
+        "M16A4": null,
+        "AK-74": null,
+        "MK14": null,
+        "AK-12": null,
+        "M24": null,
+        "SCAR-H": null,
+        "G36C": null,
+        "VSS": null,
+        "AK-74M": null,
+        "KRISSVECTOR": null,
+        "AK308": null,
+        "COLT1911": null,
+        "GLOCK17": null
+      }
+    }
+  ]
 }
