@@ -361,6 +361,8 @@
       }
     }
   ],
+  "barrel": [],
+  "underbarrel": [],
   "accessory": [
     {
       "name": "Flashlight",
