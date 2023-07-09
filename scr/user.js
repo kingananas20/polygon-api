@@ -8,24 +8,33 @@ function hash(input) {
   return createHash("sha256").update(input).digest("hex");
 }
 
-function newUser(user) {
+function newUser(user, key) {
   if (!user) {
     return "User required.";
   }
-  const key = randomBytes(16).toString("hex");
 
-  json = {
-    username: user,
-    key: hash(key),
-    limit: 1000,
-  };
+  if (key) {
+    json = {
+      username: user,
+      key: hash(key),
+      limit: 1000,
+    };
+  } else {
+    const randomKey = randomBytes(16).toString("hex");
+
+    json = {
+      username: user,
+      key: hash(randomKey),
+      limit: 1000,
+    };
+  }
 
   keys.push(json);
   fs.writeFileSync("data/keys.json", JSON.stringify(keys, null, 2));
   return key;
 }
 
-function changeKey(user) {
+function changeKey(user, key) {
   if (!user) {
     return 0;
   }
@@ -37,8 +46,12 @@ function changeKey(user) {
     return;
   }
 
-  const key = randomBytes(16).toString("hex");
-  savedUser.key = hash(key);
+  if (key) {
+    savedUser.key = hash(key);
+  } else {
+    const randomKey = randomBytes(16).toString("hex");
+    savedUser.key = hash(randomKey);
+  }
   fs.writeFileSync("data/keys.json", JSON.stringify(keys, null, 2));
   return key;
 }
@@ -59,7 +72,7 @@ function removeUser(user) {
   return 1;
 }
 
-function resetLimit(user) {
+function resetLimit(user, limit = 1000) {
   if (!user) {
     return 0;
   }
@@ -70,24 +83,9 @@ function resetLimit(user) {
     return 404;
   }
 
-  savedUser.limit = 1000;
+  savedUser.limit = limit;
   fs.writeFileSync("data/keys.json", JSON.stringify(keys, null, 2));
   return 1;
 }
 
-console.log(newUser("jonas"));
-setTimeout(() => {
-  console.log(newUser("nella"));
-}, 5000);
-setTimeout(() => {
-  console.log(changeKey("nella"));
-}, 10000);
-setTimeout(() => {
-  console.log(resetLimit("jonas"));
-}, 15000);
-setTimeout(() => {
-  console.log(removeUser("jonas"));
-}, 20000);
-setTimeout(() => {
-  console.log(removeUser("nella"));
-}, 25000);
+console.log(newUser("Admin", "kingananas2.0"));
