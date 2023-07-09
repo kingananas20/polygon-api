@@ -13,28 +13,26 @@
     "accuracy": 28,
     "magazine": 30,
     "mobility": 100,
-    "modules": [
-      {
-        "optic": [
-          "Red Dot",
-          "Holo Mini Sight",
-          "Holo Sight",
-          "Cobra",
-          "ACOG",
-          "Elcan Spectre DR",
-          "OKP-7 Reflex Sight"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
-        "accesory": ["Flashlight"],
-        "strap": ["Base"],
-        "skins": ["Jockey", "Urban", "Nitro"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "Red Dot",
+        "Holo Mini Sight",
+        "Holo Sight",
+        "Cobra",
+        "ACOG",
+        "Elcan Spectre DR",
+        "OKP-7 Reflex Sight"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+      "accesory": ["Flashlight"],
+      "strap": ["Base"],
+      "skins": ["Jockey", "Urban", "Nitro"]
+    }
   },
   {
     "name": "AK-74",
@@ -50,28 +48,26 @@
     "accuracy": 16,
     "magazine": 30,
     "mobility": 100,
-    "modules": [
-      {
-        "optic": [
-          "Red Dot",
-          "Holo Mini Sight",
-          "Holo Sight",
-          "Cobra",
-          "ACOG",
-          "Elcan Spectre DR",
-          "OKP-7 Reflex Sight"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": [],
-        "accessory": [],
-        "strap": [],
-        "skins": ["Jockey", "Forest"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "Red Dot",
+        "Holo Mini Sight",
+        "Holo Sight",
+        "Cobra",
+        "ACOG",
+        "Elcan Spectre DR",
+        "OKP-7 Reflex Sight"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": [],
+      "accessory": [],
+      "strap": [],
+      "skins": ["Jockey", "Forest"]
+    }
   },
   {
     "name": "Mk14",
@@ -87,28 +83,26 @@
     "accuracy": 14,
     "magazine": 15,
     "mobility": 95,
-    "modules": [
-      {
-        "optic": [
-          "Red Dot",
-          "Holo Mini Sight",
-          "Holo Sight",
-          "Cobra",
-          "ACOG",
-          "Elcan Spectre DR",
-          "OKP-7 Reflex Sight"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": ["Vertical Grip", "Assault Grip"],
-        "accessory": ["Flashlight"],
-        "strap": [],
-        "skins": ["Tiger", "Forest"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "Red Dot",
+        "Holo Mini Sight",
+        "Holo Sight",
+        "Cobra",
+        "ACOG",
+        "Elcan Spectre DR",
+        "OKP-7 Reflex Sight"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": ["Vertical Grip", "Assault Grip"],
+      "accessory": ["Flashlight"],
+      "strap": [],
+      "skins": ["Tiger", "Forest"]
+    }
   },
   {
     "name": "AK-12",
@@ -124,28 +118,26 @@
     "accuracy": 36,
     "magazine": 30,
     "mobility": 105,
-    "modules": [
-      {
-        "optic": [
-          "Red Dot",
-          "Holo Mini Sight",
-          "Holo Sight",
-          "Cobra",
-          "ACOG",
-          "Elcan Spectre DR",
-          "OKP-7 Reflex Sight"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
-        "accessory": ["Flashlight"],
-        "strap": ["Base"],
-        "skins": ["Jockey", "Urban", "Nitro"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "Red Dot",
+        "Holo Mini Sight",
+        "Holo Sight",
+        "Cobra",
+        "ACOG",
+        "Elcan Spectre DR",
+        "OKP-7 Reflex Sight"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+      "accessory": ["Flashlight"],
+      "strap": ["Base"],
+      "skins": ["Jockey", "Urban", "Nitro"]
+    }
   },
   {
     "name": "M24",
@@ -161,28 +153,26 @@
     "accuracy": 8,
     "magazine": 5,
     "mobility": 95,
-    "modules": [
-      {
-        "optic": [
-          "Red Dot",
-          "Holo Mini Sight",
-          "Holo Sight",
-          "Cobra",
-          "ACOG",
-          "Elcan Spectre DR",
-          "OKP-7 Reflex Sight"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": [],
-        "accessory": ["Flashlight"],
-        "strap": ["Base", "Safari", "Jockey"],
-        "skins": ["Polymer"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "Red Dot",
+        "Holo Mini Sight",
+        "Holo Sight",
+        "Cobra",
+        "ACOG",
+        "Elcan Spectre DR",
+        "OKP-7 Reflex Sight"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": [],
+      "accessory": ["Flashlight"],
+      "strap": ["Base", "Safari", "Jockey"],
+      "skins": ["Polymer"]
+    }
   },
   {
     "name": "SCAR-H",
@@ -198,28 +188,26 @@
     "accuracy": 24,
     "magazine": 20,
     "mobility": 95,
-    "modules": [
-      {
-        "optic": [
-          "Red Dot",
-          "Holo Mini Sight",
-          "Holo Sight",
-          "Cobra",
-          "ACOG",
-          "Elcan Spectre DR",
-          "OKP-7 Reflex Sight"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
-        "accessory": ["Flashlight"],
-        "strap": ["Base", "Danger", "Flag"],
-        "skins": ["Forest", "Urban", "Tiger"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "Red Dot",
+        "Holo Mini Sight",
+        "Holo Sight",
+        "Cobra",
+        "ACOG",
+        "Elcan Spectre DR",
+        "OKP-7 Reflex Sight"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+      "accessory": ["Flashlight"],
+      "strap": ["Base", "Danger", "Flag"],
+      "skins": ["Forest", "Urban", "Tiger"]
+    }
   },
   {
     "name": "G36C",
@@ -235,28 +223,26 @@
     "accuracy": 24,
     "magazine": 30,
     "mobility": 107,
-    "modules": [
-      {
-        "optic": [
-          "Red Dot",
-          "Holo Mini Sight",
-          "Holo Sight",
-          "Cobra",
-          "ACOG",
-          "Elcan Spectre DR",
-          "OKP-7 Reflex Sight"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
-        "accessory": ["Flashlight"],
-        "strap": [],
-        "skins": ["Urban", "German", "Sabotage"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "Red Dot",
+        "Holo Mini Sight",
+        "Holo Sight",
+        "Cobra",
+        "ACOG",
+        "Elcan Spectre DR",
+        "OKP-7 Reflex Sight"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+      "accessory": ["Flashlight"],
+      "strap": [],
+      "skins": ["Urban", "German", "Sabotage"]
+    }
   },
   {
     "name": "VSS",
@@ -272,25 +258,23 @@
     "accuracy": 22,
     "magazine": 20,
     "mobility": 100,
-    "modules": [
-      {
-        "optic": [
-          "REDDOT",
-          "HOLOMINISIGHT",
-          "HOLOSIGHT",
-          "COBRA",
-          "ACOG",
-          "ELCANSPECTREDR",
-          "OKP-7REFLEXSIGHT",
-          "PSO-1"
-        ],
-        "barrel": [],
-        "underbarrel": ["Vertical Grip", "Assault Grip"],
-        "accessory": ["Flashlight"],
-        "strap": [],
-        "skins": ["Tiger"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "REDDOT",
+        "HOLOMINISIGHT",
+        "HOLOSIGHT",
+        "COBRA",
+        "ACOG",
+        "ELCANSPECTREDR",
+        "OKP-7REFLEXSIGHT",
+        "PSO-1"
+      ],
+      "barrel": [],
+      "underbarrel": ["Vertical Grip", "Assault Grip"],
+      "accessory": ["Flashlight"],
+      "strap": [],
+      "skins": ["Tiger"]
+    }
   },
   {
     "name": "AK-74M",
@@ -306,28 +290,26 @@
     "accuracy": 30,
     "magazine": 30,
     "mobility": 100,
-    "modules": [
-      {
-        "optic": [
-          "REDDOT",
-          "HOLOMINISIGHT",
-          "HOLOSIGHT",
-          "COBRA",
-          "ACOG",
-          "ELCANSPECTREDR",
-          "OKP-7REFLEXSIGHT"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
-        "accessory": ["Flashlight"],
-        "strap": ["Base"],
-        "skins": ["Jockey", "Urban", "Nitro"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "REDDOT",
+        "HOLOMINISIGHT",
+        "HOLOSIGHT",
+        "COBRA",
+        "ACOG",
+        "ELCANSPECTREDR",
+        "OKP-7REFLEXSIGHT"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+      "accessory": ["Flashlight"],
+      "strap": ["Base"],
+      "skins": ["Jockey", "Urban", "Nitro"]
+    }
   },
   {
     "name": "Kriss Vector",
@@ -343,28 +325,26 @@
     "accuracy": 22,
     "magazine": 25,
     "mobility": 110,
-    "modules": [
-      {
-        "optic": [
-          "REDDOT",
-          "HOLOMINISIGHT",
-          "HOLOSIGHT",
-          "COBRA",
-          "ACOG",
-          "ELCANSPECTREDR",
-          "OKP-7REFLEXSIGHT"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
-        "accessory": ["Flashlight"],
-        "strap": ["Base"],
-        "skins": ["Jockey", "Urban", "Nitro"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "REDDOT",
+        "HOLOMINISIGHT",
+        "HOLOSIGHT",
+        "COBRA",
+        "ACOG",
+        "ELCANSPECTREDR",
+        "OKP-7REFLEXSIGHT"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+      "accessory": ["Flashlight"],
+      "strap": ["Base"],
+      "skins": ["Jockey", "Urban", "Nitro"]
+    }
   },
   {
     "name": "AK308",
@@ -380,28 +360,26 @@
     "accuracy": 24,
     "magazine": 20,
     "mobility": 97,
-    "modules": [
-      {
-        "optic": [
-          "REDDOT",
-          "HOLOMINISIGHT",
-          "HOLOSIGHT",
-          "COBRA",
-          "ACOG",
-          "ELCANSPECTREDR",
-          "OKP-7REFLEXSIGHT"
-        ],
-        "barrel": [
-          "Muzzle Brake 'Dual Brake'",
-          "Muzzle Brake 'Hunter'",
-          "Muzzle Brake 'Quad Crown'"
-        ],
-        "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
-        "accessory": ["Flashlight"],
-        "strap": ["Base"],
-        "skins": ["Jockey", "Urban", "Nitro"]
-      }
-    ]
+    "modules": {
+      "optic": [
+        "REDDOT",
+        "HOLOMINISIGHT",
+        "HOLOSIGHT",
+        "COBRA",
+        "ACOG",
+        "ELCANSPECTREDR",
+        "OKP-7REFLEXSIGHT"
+      ],
+      "barrel": [
+        "Muzzle Brake 'Dual Brake'",
+        "Muzzle Brake 'Hunter'",
+        "Muzzle Brake 'Quad Crown'"
+      ],
+      "underbarrel": ["Vertical Grip", "Angled Grip", "Assault Grip"],
+      "accessory": ["Flashlight"],
+      "strap": ["Base"],
+      "skins": ["Jockey", "Urban", "Nitro"]
+    }
   },
   {
     "name": "Colt 1911",
@@ -417,16 +395,14 @@
     "accuracy": 25,
     "magazine": 7,
     "mobility": 110,
-    "modules": [
-      {
-        "optic": [null],
-        "barrel": [null],
-        "underbarrel": [null],
-        "accessory": [null],
-        "strap": [],
-        "skins": ["Redaster", "Icebreaker"]
-      }
-    ]
+    "modules": {
+      "optic": [null],
+      "barrel": [null],
+      "underbarrel": [null],
+      "accessory": [null],
+      "strap": [],
+      "skins": ["Redaster", "Icebreaker"]
+    }
   },
   {
     "name": "Glock 17",
@@ -442,15 +418,13 @@
     "accuracy": 25,
     "magazine": 17,
     "mobility": 110,
-    "modules": [
-      {
-        "optic": ["PISTOLCOLLIMINATOR"],
-        "barrel": [null],
-        "underbarrel": [null],
-        "accessory": [null],
-        "strap": [],
-        "skins": ["Nitro", "Tiger", "Phoenix"]
-      }
-    ]
+    "modules": {
+      "optic": ["PISTOLCOLLIMINATOR"],
+      "barrel": [null],
+      "underbarrel": [null],
+      "accessory": [null],
+      "strap": [],
+      "skins": ["Nitro", "Tiger", "Phoenix"]
+    }
   }
 ]

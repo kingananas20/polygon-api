@@ -31,7 +31,15 @@ function hash(input) {
   return createHash("sha256").update(input).digest("hex");
 }
 
-function getPermission(key, res, payload, message, status) {
+function code(code) {
+  if (code === 200) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
+
+function getPermission(key, res, payload, message, status = 200) {
   const permissionGranted = keys.find((c) => c.key === hash(key));
   if (!permissionGranted) {
     res
@@ -54,13 +62,14 @@ function getPermission(key, res, payload, message, status) {
   } else {
     permissionGranted.limit = permissionGranted.limit - 1;
     fs.writeFileSync("data/keys.json", JSON.stringify(keys, null, 2));
+
     res
       .send({
         data: payload,
         message: message,
-        success: 1,
+        success: code(status),
       })
-      .status(status || 200);
+      .status(status);
     return;
   }
 }
@@ -74,15 +83,14 @@ app.get("/api/v1/:key/weapons/", (req, res) => {
 });
 
 app.get("/api/v1/:key/weapons/:code", (req, res) => {
-  const query = req.params.code.toUpperCase();
-  const weapon = weapons.data.find((c) => c.code === query);
+  const weapon = weapons.find((c) => c.code === req.params.code.toUpperCase());
 
   if (!weapon) {
     getPermission(req.params.key, res, [], "Weapon does not exist.", 404);
     return;
   }
 
-  getPermission(req.params.key, res, weapons, "Successful.");
+  getPermission(req.params.key, res, weapon, "Successful.");
 });
 
 app.get("/api/v1/:key/modules", (req, res) => {
@@ -91,16 +99,16 @@ app.get("/api/v1/:key/modules", (req, res) => {
 
 app.get("/api/v1/:key/modules/:type", (req, res) => {
   if (req.params.type === "optics") {
-    getPermission(req.params.key, res, modules.data.optic, "Successful.");
+    getPermission(req.params.key, res, modules.optic, "Successful.");
     return;
   } else if (req.params.type === "barrels") {
-    getPermission(req.params.key, res, modules.data.barrel, "Successful.");
+    getPermission(req.params.key, res, modules.barrel, "Successful.");
     return;
   } else if (req.params.type === "underbarrels") {
-    getPermission(req.params.key, res, modules.data.underbarrel, "Successful.");
+    getPermission(req.params.key, res, modules.underbarrel, "Successful.");
     return;
   } else if (req.params.type === "accessory") {
-    getPermission(req.params.key, res, modules.data.accessory, "Successful.");
+    getPermission(req.params.key, res, modules.accessory, "Successful.");
     return;
   } else {
     getPermission(
@@ -116,40 +124,46 @@ app.get("/api/v1/:key/modules/:type", (req, res) => {
 
 app.get("/api/v1/:key/modules/:type/:code", (req, res) => {
   if (req.params.type === "optics") {
-    const module = modules.data.optic.find(
+    const module = modules.optic.find(
       (c) => c.code === req.params.code.toUpperCase()
     );
+
     if (!module) {
       getPermission(req.params.key, res, [], "Module does not exist.", 404);
       return;
     }
+
     getPermission(req.params.key, res, module, "Successful.");
     return;
   } else if (req.params.type === "barrels") {
-    const module = modules.data.barrel.find((c) => c.code === req.params.code);
+    const module = modules.barrel.find((c) => c.code === req.params.code);
+
     if (!module) {
       getPermission(req.params.key, res, [], "Module does not exist.", 404);
       return;
     }
-    getPermission(req.params.key, res, modules.data.barrel, "Successful.");
+
+    getPermission(req.params.key, res, module, "Successful.");
     return;
   } else if (req.params.type === "underbarrels") {
-    const module = modules.data.underbarrel.find(
-      (c) => c.code === req.params.code
-    );
+    const module = modules.underbarrel.find((c) => c.code === req.params.code);
+
     if (!module) {
       getPermission(req.params.key, res, [], "Module does not exist.", 404);
       return;
     }
+
     getPermission(req.params.key, res, module, "Successful.");
     return;
   } else if (req.params.type === "accessory") {
-    const module = modules.data.accessory.find(
+    const module = modules.accessory.find(
       (c) => c.code === req.params.code.toUpperCase()
     );
+
     if (!module) {
       getPermission(req.params.key, res, [], "Module does not exist.");
     }
+
     getPermission(req.params.key, res, module, "Successful.");
     return;
   } else {
@@ -171,10 +185,10 @@ app.get("/api/v1/:key/cosmetics", (req, res) => {
 
 app.get("/api/v1/:key/cosmetics/:type", (req, res) => {
   if (req.params.type === "skins") {
-    getPermission(req.params.key, res, cosmetics.data.skins, "Successful.");
+    getPermission(req.params.key, res, cosmetics.skins, "Successful.");
     return;
   } else if (req.params.type === "straps") {
-    getPermission(req.params.key, res, cosmetics.data.straps, "Successful.");
+    getPermission(req.params.key, res, cosmetics.straps, "Successful.");
     return;
   } else {
     getPermission(
@@ -190,25 +204,29 @@ app.get("/api/v1/:key/cosmetics/:type", (req, res) => {
 
 app.get("/api/v1/:key/cosmetics/:type/:code", (req, res) => {
   if (req.params.type === "skins") {
-    const cosmetic = cosmetics.data.skins.find(
-      (c) => c.code === req.params.code
-    );
+    const cosmetic = cosmetics.skins.find((c) => c.code === req.params.code);
+
     if (!cosmetic) {
       getPermission(req.params.key, res, [], "Cosmetic does not exist.", 404);
     }
-    getPermission(req.params.key, res, cosmetic);
+
+    getPermission(req.params.key, res, cosmetic, "Successful.");
     return;
   } else if (req.params.type === "straps") {
-    const cosmetic = cosmetics.data.straps.find(
-      (c) => c.code === req.params.code
-    );
-    getPermission(req.params.key, res, cosmetic);
+    const cosmetic = cosmetics.straps.find((c) => c.code === req.params.code);
+
+    if (!cosmetic) {
+      getPermission(req.params.key, res, [], "Cosmetic does not exist.", 404);
+    }
+
+    getPermission(req.params.key, res, cosmetic, "Successful.");
     return;
   } else {
     getPermission(
       req.params.key,
       res,
-      "Incorrect type of cosmetics {skins | straps}.",
+      [],
+      "Type of cosmetics does not exist.",
       404
     );
     return;
