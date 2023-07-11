@@ -57,7 +57,7 @@ function getPermission(key, res, payload, message, status = 200) {
         message: "Max calls reached.",
         success: 0,
       })
-      .status(401);
+      .status(420);
     return;
   } else {
     permissionGranted.limit = permissionGranted.limit - 1;
