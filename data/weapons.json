@@ -35,8 +35,8 @@
     }
   },
   {
-    "name": "AK-74",
-    "code": "AK-74",
+    "name": "AK-47",
+    "code": "AK47",
     "requiredLevel": 3,
     "type": "Assault",
     "price": 2300,
@@ -106,7 +106,7 @@
   },
   {
     "name": "AK-12",
-    "code": "AK-12",
+    "code": "AK12",
     "requiredLevel": 8,
     "type": "Assault",
     "price": 11400,
@@ -176,7 +176,7 @@
   },
   {
     "name": "SCAR-H",
-    "code": "SCAR-H",
+    "code": "SCARH",
     "requiredLevel": 12,
     "type": "Assault",
     "price": 30900,
@@ -278,7 +278,7 @@
   },
   {
     "name": "AK-74M",
-    "code": "AK-74M",
+    "code": "AK74M",
     "requiredLevel": 18,
     "type": "Assault",
     "price": 85000,

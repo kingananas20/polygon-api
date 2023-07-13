@@ -87,5 +87,3 @@ function resetLimit(user, limit = 1000) {
   fs.writeFileSync("data/keys.json", JSON.stringify(keys, null, 2));
   return 1;
 }
-
-console.log(newUser("Admin", "kingananas2.0"));

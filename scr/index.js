@@ -1,8 +1,17 @@
 const fs = require("fs");
 const { createHash } = require("crypto");
 const express = require("express");
-const { get } = require("http");
+const { exec } = require("child_process");
 require("dotenv").config();
+
+exec("node scr/resetLimit.js", (err, stdout, stderr) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  console.log(stdout);
+  console.error(stderr);
+});
 
 const weapons = JSON.parse(fs.readFileSync("data/weapons.json"));
 const modules = JSON.parse(fs.readFileSync("data/modules.json"));
@@ -57,7 +66,7 @@ function getPermission(key, res, payload, message, status = 200) {
         message: "Max calls reached.",
         success: 0,
       })
-      .status(420);
+      .status(429);
     return;
   } else {
     permissionGranted.limit = permissionGranted.limit - 1;

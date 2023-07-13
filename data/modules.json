@@ -218,7 +218,7 @@
     },
     {
       "name": "OKP-7 Reflex Sight",
-      "code": "OKP-7REFLEXSIGHT",
+      "code": "OKP7REFLEXSIGHT",
       "pros": ["Display a crosshair"],
       "cons": ["Increase ADS time (+5%)"],
       "price": {
@@ -254,7 +254,7 @@
     },
     {
       "name": "PSO-1",
-      "code": "PSO-1",
+      "code": "PSO1",
       "pros": ["High magnification"],
       "cons": ["Increase ADS time (+30%)"],
       "price": {
