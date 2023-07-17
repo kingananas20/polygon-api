@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon scr/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingananas20/polygon-api"
+  },
   "author": "kingananas2.0",
   "license": "ISC",
   "dependencies": {

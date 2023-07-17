@@ -4,14 +4,7 @@ const express = require("express");
 const { exec } = require("child_process");
 require("dotenv").config();
 
-exec("node scr/resetLimit.js", (err, stdout, stderr) => {
-  if (err) {
-    console.log(err);
-    return;
-  }
-  console.log(stdout);
-  console.error(stderr);
-});
+exec("node scr/resetLimit.js");
 
 const weapons = JSON.parse(fs.readFileSync("data/weapons.json"));
 const modules = JSON.parse(fs.readFileSync("data/modules.json"));
