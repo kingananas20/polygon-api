@@ -1,16 +1,20 @@
+//Import the required packages
 const fs = require("fs");
 const { createHash } = require("crypto");
 const express = require("express");
 const { exec } = require("child_process");
 require("dotenv").config();
 
+//Run resetLimit.js
 exec("node scr/resetLimit.js");
 
+//Get every JSON file in data
 const weapons = JSON.parse(fs.readFileSync("data/weapons.json"));
 const modules = JSON.parse(fs.readFileSync("data/modules.json"));
 const cosmetics = JSON.parse(fs.readFileSync("data/cosmetics.json"));
 const keys = JSON.parse(fs.readFileSync("data/keys.json"));
 
+//Define express() as app
 const app = express();
 
 /**
@@ -29,10 +33,12 @@ const app = express();
  * }
  */
 
+//Function to hash the input with sha256 and output it as hex
 function hash(input) {
   return createHash("sha256").update(input).digest("hex");
 }
 
+//Function to define the success code in the response
 function code(code) {
   if (code === 200) {
     return 1;
@@ -41,6 +47,7 @@ function code(code) {
   }
 }
 
+//Function that checks if the apikey is correct and has enough calls remaining (1000 per day) and then sends the response
 function getPermission(key, res, payload, message, status = 200) {
   const permissionGranted = keys.find((c) => c.key === hash(key));
   if (!permissionGranted) {
@@ -76,14 +83,17 @@ function getPermission(key, res, payload, message, status = 200) {
   }
 }
 
+//Responds that the apikey is correct
 app.get("/api/v1/:key", (req, res) => {
   getPermission(req.params.key, res, [], "Apikey correct.");
 });
 
+//Show all weapons
 app.get("/api/v1/:key/weapons/", (req, res) => {
   getPermission(req.params.key, res, weapons, "Succesful.");
 });
 
+//Show a specific weapon by their code
 app.get("/api/v1/:key/weapons/:code", (req, res) => {
   const weapon = weapons.find((c) => c.code === req.params.code.toUpperCase());
 
@@ -95,10 +105,12 @@ app.get("/api/v1/:key/weapons/:code", (req, res) => {
   getPermission(req.params.key, res, weapon, "Successful.");
 });
 
+//Show all modules
 app.get("/api/v1/:key/modules", (req, res) => {
   getPermission(req.params.key, res, modules, "Successful.");
 });
 
+//Show all modules by their type
 app.get("/api/v1/:key/modules/:type", (req, res) => {
   if (req.params.type === "optics") {
     getPermission(req.params.key, res, modules.optic, "Successful.");
@@ -124,6 +136,7 @@ app.get("/api/v1/:key/modules/:type", (req, res) => {
   }
 });
 
+//Show specific modules by their type and code
 app.get("/api/v1/:key/modules/:type/:code", (req, res) => {
   if (req.params.type === "optics") {
     const module = modules.optic.find(
@@ -180,11 +193,13 @@ app.get("/api/v1/:key/modules/:type/:code", (req, res) => {
   }
 });
 
+//Show all cosmetics
 app.get("/api/v1/:key/cosmetics", (req, res) => {
   getPermission(req.params.key, res, cosmetics, "Successful.");
   return;
 });
 
+//Show all cosmetics by their type
 app.get("/api/v1/:key/cosmetics/:type", (req, res) => {
   if (req.params.type === "skins") {
     getPermission(req.params.key, res, cosmetics.skins, "Successful.");
@@ -204,6 +219,7 @@ app.get("/api/v1/:key/cosmetics/:type", (req, res) => {
   }
 });
 
+//Show specific cosmetics by their type and code
 app.get("/api/v1/:key/cosmetics/:type/:code", (req, res) => {
   if (req.params.type === "skins") {
     const cosmetic = cosmetics.skins.find((c) => c.code === req.params.code);
@@ -235,5 +251,6 @@ app.get("/api/v1/:key/cosmetics/:type/:code", (req, res) => {
   }
 });
 
+//Start the server
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`API server is running on port ${port}...`));

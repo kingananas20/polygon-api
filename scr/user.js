@@ -1,13 +1,17 @@
+//IMport required packages
 const { createHash, randomBytes } = require("crypto");
 const fs = require("fs");
 require("dotenv").config();
 
+//Get the keys.json file
 const keys = JSON.parse(fs.readFileSync("data/keys.json"));
 
+//Function to hash the input with sha256 and output it as hex
 function hash(input) {
   return createHash("sha256").update(input).digest("hex");
 }
 
+//Function that creates a new user with a random or provided key
 function newUser(user, key) {
   if (!user) {
     return "User required.";
@@ -34,6 +38,7 @@ function newUser(user, key) {
   return key;
 }
 
+//Changes the key with a random or provided key
 function changeKey(user, key) {
   if (!user) {
     return 0;
@@ -56,6 +61,7 @@ function changeKey(user, key) {
   return key;
 }
 
+//Remove an user with their username
 function removeUser(user) {
   if (!user) {
     return 0;
@@ -72,6 +78,7 @@ function removeUser(user) {
   return 1;
 }
 
+//Reset the limit for a specified user to 100 or a provided number
 function resetLimit(user, limit = 1000) {
   if (!user) {
     return 0;
